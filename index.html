@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Basics</h1>
+
+        <div class="task">
+            <h2>Task 1: Simple Calculator</h2>
+            <input type="number" id="calc-num1" placeholder="Enter first number">
+            <input type="number" id="calc-num2" placeholder="Enter second number">
+            <input type="text" id="calc-operator" placeholder="Enter operator (+, -, *, /)">
+            <button onclick="performCalculation()">Calculate</button>
+            <p id="calc-result"></p>
+        </div>
+
+        <div class="task">
+            <h2>Task 2: Array Operations</h2>
+            <input type="text" id="array-input" placeholder="Enter numbers separated by commas">
+            <button onclick="calculateSumOfEvens()">Calculate Sum of Even Numbers</button>
+            <p id="array-result"></p>
+        </div>
+
+        <div class="task">
+            <h2>Task 3: Object Manipulation</h2>
+            <p>First Name: <span id="person-firstName"></span></p>
+            <p>Last Name: <span id="person-lastName"></span></p>
+            <p>Age: <span id="person-age"></span></p>
+            <button onclick="incrementPersonAge()">Increment Age</button>
+            <p id="person-result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
